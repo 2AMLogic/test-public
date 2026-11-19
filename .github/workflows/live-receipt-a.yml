@@ -1,0 +1,7 @@
+name: live-receipt-live-receipt-a
+on: push
+jobs:
+  ok:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "loom-tools live receipt (live-receipt-a)"
